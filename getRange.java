@@ -17,7 +17,6 @@ OutPut: [1,4]
 */
 
 public class getRange {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] arr = {1,3,3,5,7,8,9,9,9,15};
@@ -30,25 +29,17 @@ public class getRange {
 	public static int[] getRange(int [] array,int target) {
 		int[] newArray = {-1,-1};
 		for(int i=0; i < array.length;) {
-
 			if(array[i] == target) {
-
 				for(int j=i+1;j< array.length;j++) {
-
 					if(array[i] != array[j]) {
-
 						newArray[0] = i;
 						newArray[1] = j-1;
 						return newArray;
-
 					}
-
 				}
-
 			} else if(array[i] != target) {
 				i++;
 			}
-
 		}
 		return newArray;
 	}
