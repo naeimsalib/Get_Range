@@ -15,3 +15,4 @@ Output: [-1, -1]<br />
 
 Input: A = [1, 2, 2, 2, 2, 3, 4, 7, 8, 8], target = 2<br />
 OutPut: [1,4]<br />
+<br />
